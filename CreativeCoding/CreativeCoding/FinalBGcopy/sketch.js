@@ -13,10 +13,12 @@ background (225, 250, 252);//background color
 }
 
 function draw() {//runs in loop
+  background(255, 250, 252);
+  translate (-100,100);
 //fill ('turquoise');//fills shape with RGB color
 //strokeWeight (1);//assigns stroke weight
 
-var num = 2; //number of sides in the array
+var num = 10; //number of sides in the array
 var sideLen = windowWidth/num; //side length variable
 
 
