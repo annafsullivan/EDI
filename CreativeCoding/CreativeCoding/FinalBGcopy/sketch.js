@@ -9,7 +9,7 @@ function preload () {
 
 function setup() {//runs once
 createCanvas (windowWidth, windowWidth);//creates a canvas 720 pixels by 720 pixels
-background ('yellow');//background color
+background ('225, 250, 252');//background color
 }
 
 function draw() {//runs in loop
