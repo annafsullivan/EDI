@@ -2,7 +2,7 @@
 let gif;
 
 function preload () {
-    gif = loadImage ('assets/yellowSquare.gif');
+    gif = loadImage ('assets/AiBGv1.gif');
 }
 
 
