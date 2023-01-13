@@ -9,12 +9,12 @@ function preload () {
 
 function setup() {//runs once
 createCanvas (windowWidth, windowWidth);//creates a canvas 720 pixels by 720 pixels
-background (225, 250, 252);//background color
+
 }
 
 function draw() {//runs in loop
-  background(255, 250, 252);
-  translate (-100,100);
+  background(216, 237, 242);
+  translate (-100,-100);
 //fill ('turquoise');//fills shape with RGB color
 //strokeWeight (1);//assigns stroke weight
 
