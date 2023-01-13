@@ -18,12 +18,12 @@ function draw() {//runs in loop
 //fill ('turquoise');//fills shape with RGB color
 //strokeWeight (1);//assigns stroke weight
 
-var num = 10; //number of sides in the array
+var num = 7; //number of sides in the array
 var sideLen = windowWidth/num; //side length variable
 
 
-for (var y = 0; y < windowWidth; y = y + sideLen){
-  for (var x = 0; x < windowWidth; x = x + sideLen){
+for (var y = 0; y < 2 * windowWidth; y = y + sideLen){
+  for (var x = 0; x < 2 * windowWidth; x = x + sideLen){
 image (gif,x,y,windowWidth/num, windowWidth/num);
   }
   function windowResized(){
