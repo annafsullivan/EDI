@@ -2,7 +2,7 @@
 let gif;
 
 function preload () {
-    gif = loadImage ('assets/AIBG2.gif');
+    gif = loadImage ('../assets/AIBG2.gif');
 }
 
 
